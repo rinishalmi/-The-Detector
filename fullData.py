@@ -125,7 +125,7 @@ print("Cross-Validation Scores:", scores)
 print("Mean CV Accuracy:", scores.mean())
 
 
-
+  
 ## Random Classifier
 from sklearn.ensemble import RandomForestClassifier
 rf=RandomForestClassifier(random_state=0,class_weight='balanced')
