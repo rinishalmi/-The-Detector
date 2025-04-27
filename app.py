@@ -8,8 +8,10 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 import nltk
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('wordnet')
+nltk.download('punkt')
+
 
 models=joblib.load("models/models.pkl")
 vectorizer=joblib.load('models/vectorizer.pkl')
